@@ -1,0 +1,5 @@
+#fonte https://matplotlib.org/users/pyplot_tutorial.html
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4]) #add pontos no gráfico
+plt.ylabel('alguns números') #add título 
+plt.show() #printando na tela 
