@@ -1,19 +1,9 @@
 #passos simples para criar um gráfico no matplotlib
-2
-import  matplotlib . pyplot  como  plt  #importando uma biblioteca gráfica
-3
-import  numpy  como  np  #importando a biblioteca para programação matemáticas
-4
-Detalhes
-5
-x  =  np . linspace ( 0 , 3 , 20 ) #add os pontos nas das coordenadas
-6
-y  =  np . linspace ( 0 , 9 , 20 ) #add os pontos nas absissas
-7
-plt . enredo ( x , y , 'b' )          # plotagem da linha
-8
-plt . traçar ( x , y , o ' )     # traçar os pontos # https://goo.gl/UqyxhC
-9
-plt . show ()              # <- mostra o gráfico
-10
-Detalhes
+import matplotlib.pyplot as plt #importando a biblioteca gráfica
+import numpy as np #importando a biblioteca para operações matemáticas
+
+x = np.linspace(0, 3, 20, 4) #add os pontos nas das coordenadas
+y = np.linspace(0, 9, 20, 4) #add os pontos nas absissas
+plt.plot(x, y, 'r')       # plotagem da linha 'b' é a cor
+plt.plot(x, y, 'o')  # plotagem dos pontos #  https://goo.gl/UqyxhC
+plt.show()           # <-- mostra o gráfico
